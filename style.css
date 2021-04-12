@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 60rem;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 15px;
+}
+ul li::before {
+  content: '\2022';
+  color: #449399;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.75rem;
+  margin-left: 0rem;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+header .left-col {
+  flex: 4 0 0;
+}
+
+header .left-col::after {
+  content: '';
+  background-color: #313c4e;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  top: -7.75rem;
+  left: -4rem;
+}
+
+header .right-col {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+header h1 {
+  color: #313c4e;
+  font-weight: normal;
+}
+
+header p {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header a span {
+  margin-right: 0.5rem;
+}
+
+header h3 {
+  color: #449399;
+  font-weight: normal;
+}
+
+header .right-col * {
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+}
+
+main {
+  display: flex;
+  margin-top: 2rem;
+}
+
+main .left-col {
+  flex: 1 0 0;
+  padding: 1rem;
+}
+
+main .right-col {
+  flex: 1 0 0;
+  padding: 1rem;
+}
+
+.piece-title {
+  margin-bottom: 0.25rem;
+}
+
+.education span {
+  font-weight: 400;
+  font-size: 17px;
+}
+.cloud::after {
+  content: '';
+  background-color: #449399;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  top: -13rem;
+  left: -4rem;
+}
+
+.fullstack::after {
+  content: '';
+  background-color: #449399;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  top: -16.25rem;
+  left: -4rem;
+}
+
+.bachelor::after {
+  content: '';
+  background-color: #449399;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  top: -10rem;
+  left: -4rem;
+}
+.marketing::after {
+  content: '';
+  background-color: #449399;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  top: -13rem;
+  left: -4rem;
+}
+
+.date {
+  color: #449399;
+  font-size: 13px;
+  margin-top: 0.4rem;
+}
+
+.courses {
+  color: #449399;
+  font-size: 13px;
+  margin-top: 0.4rem;
+}
+
+.skills {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skills span {
+  background-color: #313b47;
+  padding: 0.3rem 0.5rem;
+  margin: 0.25rem;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+}
+
+.projects .section-title {
+  padding-top: 1.5rem;
+}
+.projects a {
+  margin-top: 1rem;
+  display: block;
+}
+.projects span {
+  font-weight: 500;
+}
+
+.projects li {
+  font-size: 15px;
+}
+
+.scholarships .section-title {
+  padding-top: 2rem;
+}
+
+.scholarships a {
+  display: block;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.scholarships p {
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: #7c7c7c;
+}
